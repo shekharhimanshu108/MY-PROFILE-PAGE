@@ -1,13 +1,18 @@
 .Card{
-  border: 1px solid;
-  background-color: aqua;
+  /* border: 1px solid; */
+  background-color: rgb(185, 205, 242);
+  box-shadow: 0.3px 0.4vw 1vw ;
   border-radius: 5vw;
   text-align: center;
   padding: 4vw;
   margin: 2vw;
+  /* display: inline-block; */
+
 }
 
 .dp{
-  width: 100px;
+  width: 30vw;
   border-radius: 50%;
+  stroke: bisque;
+  box-shadow: 1px 1px 10px;
 }
