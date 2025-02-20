@@ -1,3 +1,7 @@
+*{
+  background-color: bisque;
+}
+
 .Card{
   /* border: 1px solid; */
   background-color: rgb(149, 223, 198);
@@ -9,7 +13,14 @@
   /* display: inline-block; */
 
 }
-
+.Card h2{
+  color: blueviolet;
+  background-color: rgb(149, 223, 198);
+}
+.Card p{
+  color: rgb(57, 17, 95);
+  background-color: rgb(149, 223, 198);
+}
 .dp{
   width: 30vw;
   border-radius: 50%;
@@ -19,7 +30,7 @@
 
 .Cardo{
   /* border: 1px solid; */
-  background-color: rgb(149, 223, 198);
+  background-color: rgb(241, 234, 254);
   box-shadow: 0.3px 0.4vw 1vw ;
   border-radius: 5vw;
   text-align: center;
@@ -29,21 +40,24 @@
   width: 7vw;
   height: 6vw;
   overflow: hidden;
-
+  
 }
 
 .pdp{
   width: 5vw;
   height: 5vw;
   border-radius: 50%;
-  stroke: bisque;
-  box-shadow: 1px 1px 10px;
+  /* box-shadow: 1px 1px 10px; */
 }
 .prohfo{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 3vh;
+  text-align: justify;
+  background-color: rgb(0, 232, 232);
+  border-radius: 2vw;
 }
 .descfo{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2vh;
+  text-align: justify;
 }
